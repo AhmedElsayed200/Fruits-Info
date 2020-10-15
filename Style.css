@@ -1,0 +1,224 @@
+div#content {
+		float: left;
+		clear: both;
+		width: 900px;
+		margin: 0px, 5px;
+		border: 2px solid black;
+		padding: 5px;
+		background-color: Lavender;
+	}
+
+div#content1 {
+		float: left;
+		clear: both;
+		width: 900px;
+		margin: 0px, 5px;
+		padding: 5px;
+		background-color: Lavender;
+	}	
+	
+div#content p {
+		font-family: URW Chancery L, cursive;
+		font-size: 110%;
+		line-height: 140%;
+		color: black;
+		margin: 1ex 0;
+	}	
+	
+div#content1 p {
+		font-family: URW Chancery L, cursive;
+		font-size: 110%;
+		line-height: 140%;
+		color: black;
+		margin: 1ex 0;
+	}	
+	
+div#content h1, h2, h3, h4 {
+		font-family: Stencil Std, fantasy;
+		color: DarkRed;
+		margin: 1ex 0;
+	}
+
+div#content1 h1, h2, h3, h4 {
+		font-family: Stencil Std, fantasy;
+		color: DarkRed;
+		margin: 1ex 0;
+	}
+
+	
+div#sideBar {
+		float: right;
+		width: 374px;
+		margin: 0px;
+		border-left: 1px solid black;
+		padding: 5px;
+		background-color: Lavender;
+	}
+	
+div#backgroundBar img {
+	width: 1300px;
+	height: 300px;
+	text-align: center;
+	margin: 0px, 5px;
+	padding: 0;
+}	
+
+div#sideBar img {
+		float: right;
+		margin-left: 5px;
+		border: 2px solid red;
+		padding: 2 px;
+	}
+
+div#menuBar {
+		position: absolute;
+		right: 320px;
+		top: 250px;
+	}	
+	
+div#menuBar ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+div#menuBar li {
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+
+div#menuBar ul a:link, div#menuBar ul a:visited {
+		font-family: "Terbuchet MS", sans-serif;
+		display: block;
+		color: white;
+		text-decoration: none;
+		padding: 0 15px 0 30px;
+		margin-right: 10px;
+		line-height: 25px;
+	}	
+	
+div#menuBar li a:hover, div#menuBar li a:active {
+		color: orange;
+		background-position: left top;	
+	}	
+	
+.bg-imgApple {
+		background-image: url("background bars/apple.jpg"); 		
+		min-height: 350px;
+		/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		/* Needed to position the navbar */
+		position: relative;
+	}
+ 
+.bg-imgBanana {
+		background-image: url("background bars/banana1.jpg"); 		
+		min-height: 350px;
+		/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		/* Needed to position the navbar */
+		position: relative;
+	}
+ 
+.bg-imgAvocado {  	
+		background-image: url("background bars/avocado.jpg"); 		
+		min-height: 350px;
+		/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		/* Needed to position the navbar */
+		position: relative;
+	}
+	
+.bg-imgCarrot {
+		background-image: url("background bars/carrot1.jpg"); 		
+		min-height: 350px;
+		/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		/* Needed to position the navbar */
+		position: relative;
+	}
+	
+.bg-imgCucumber {
+		background-image: url("background bars/cucumber.jpg"); 		
+		min-height: 350px;
+		/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		/* Needed to position the navbar */
+		position: relative;
+	}
+	
+.bg-imgBellpepper {
+		background-image: url("background bars/bellpepper4.jpg"); 		
+		min-height: 350px;
+		/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		/* Needed to position the navbar */
+		position: relative;
+	}	
+	
+/* Position the navbar container inside the image */
+.container {
+		position: absolute;
+		width: auto;
+	}
+
+/* The navbar */
+.topnav {
+		overflow: hidden;
+		background-color: #333;
+	}
+
+/* Navbar links */
+.topnav a {
+		font-style:none;
+		float: left;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 10px 16px;
+		text-decoration: none;
+		font-size: 20px;
+}
+
+.topnav a:hover {
+		background-color: #ddd;
+		color: black;
+	}	
+
+div#images img{
+		width: 300px;
+		height: 300px;
+		border: 2px solid Lime;
+		padding: 5px;
+		margin: 10px;
+	}
+
+div#color	{
+		background-color: white;
+		width:1010px;
+		border: 5px solid Lime;
+		padding: 0px, 5px;
+	}	
+	
+body {
+	background-image: url(background/11.jpg)
+}	
+
+div#links {
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size: 130%;
+		margin-right: 10px;
+		padding:0px 5px;
+	}
